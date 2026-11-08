@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "co.truthbear/mcp",
+  "description": "Neutral, verifiable official-source records for AI agents: offline-recomputable record_hash + Ed25519 citation on every paid record (SEC EDGAR, FRED, BLS, NOAA/USGS, OFAC, EIA, and more across 90 industries). Pay-per-call via x402, no API key. Third-party relay of official records; not adjudication.",
+  "repository": {
+    "url": "https://github.com/CHANGCHINFU/truthbear-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.truthbear.co/mcp"
+    }
+  ]
+}
